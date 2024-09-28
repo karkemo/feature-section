@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@
 }
 body {
     background: #242222;
+    font-family: "Fredoka", sans-serif;
 }
 .container {
     width: 100%;
@@ -31,4 +33,50 @@ body {
     font-size: 18px;
     font-weight: 500;
     color: gray;
+}
+/* cards */
+.card-container {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card {
+    padding: 20px;
+    border-radius: 20px;
+    background: #353333;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+    transition: all 2s;
+    box-shadow: 5px 10px#000;
+}
+.icon {
+    width: fit-content;
+    display: flex;
+    justify-content: start;
+    padding: 15px;
+    border-radius: 50%;
+    background: #fff;
+}
+.card h2 {
+    color: #fff;
+}
+.card p {
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+}
+.card img {
+    width: 80%;
+    height: 150px;
+    border-radius: 20px;
+}
+.card:hover{
+    background: linear-gradient(123deg, rgb(108, 54, 158), rgb(134, 107, 185));
 }
