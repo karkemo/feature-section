@@ -5,13 +5,16 @@
     box-sizing: border-box;
 }
 body {
-    background: #242222;
+    /* background: #242222; */
+    background: #000;
     font-family: "Fredoka", sans-serif;
 }
 .container {
     width: 100%;
     height: 100vh;
     display: flex;
+    background-image: url(./assets/Background_image.svg);
+    background-size: cover;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
@@ -53,8 +56,8 @@ body {
     flex-direction: column;
     gap: 20px;
     cursor: pointer;
-    transition: all 2s;
-    box-shadow: 5px 10px#000;
+    transition: all 0.7s;
+    box-shadow: 5px 10px #201f1f;
 }
 .icon {
     width: fit-content;
@@ -79,4 +82,5 @@ body {
 }
 .card:hover{
     background: linear-gradient(123deg, rgb(108, 54, 158), rgb(134, 107, 185));
+    box-shadow: 5px 10px #636161;
 }
