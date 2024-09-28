@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #242222;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+/* titles */
+.text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+}
+.text h1 {
+    font-size: 50px;    
+    font-weight: bold;
+    color: #fff;
+}
+.text p {
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+}
