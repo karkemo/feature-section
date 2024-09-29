@@ -1,3 +1,3 @@
 # feature-section
 
-Build a simple feature section challenge with HTML and CSS to practice flexbox and nested flexbox. This project idea is perfect for beginners who want to improve their HTML and CSS skills while creating a responsive and visually appealing feature section. By implementing a feature section by using flexbox and nested flexbox, you will learn how to create flexible and responsive layouts for displaying multiple features. Additionally, you will gain experience working with HTML and CSS to structure and style the feature section. This project will help you enhance your understanding of flexbox and nested flexbox, as well as improve your ability to create visually appealing and user-friendly web pages. Get ready to showcase your flexbox skills and create an engaging feature section!
+this is a challenge from devChallenges.io
