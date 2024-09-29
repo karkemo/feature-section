@@ -8,6 +8,11 @@ body {
     /* background: #242222; */
     background: #000;
     font-family: "Fredoka", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
 }
 .container {
     width: 100%;
@@ -15,9 +20,9 @@ body {
     display: flex;
     background-image: url(./assets/Background_image.svg);
     background-size: cover;
-    align-items: center;
     justify-content: space-evenly;
-    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 50px 0 50px 0;
 }
 /* titles */
 .text {
@@ -43,9 +48,9 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 15px;
 }
 .card {
     padding: 20px;
@@ -57,7 +62,7 @@ body {
     gap: 20px;
     cursor: pointer;
     transition: all 0.7s;
-    box-shadow: 5px 10px #201f1f;
+    min-width: 350px;
 }
 .icon {
     width: fit-content;
@@ -76,11 +81,18 @@ body {
     color: gray;
 }
 .card img {
-    width: 80%;
-    height: 150px;
+    width: 95%;
+    height: 200px;
     border-radius: 20px;
 }
 .card:hover{
     background: linear-gradient(123deg, rgb(108, 54, 158), rgb(134, 107, 185));
-    box-shadow: 5px 10px #636161;
+    box-shadow: 5px 10px #201f1f;
+}
+.img-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
